@@ -1,0 +1,301 @@
+.sodic-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.sodic-header {
+    display: flex;
+    align-items: center;
+    h1 {
+        font-weight: 600;
+    }
+}
+
+.developers-tap {
+    display: flex;
+}
+
+.dev-row {
+    margin-bottom: 45px;
+}
+
+.top-right-wrapper-custom {
+    top: 29px;
+    right: -29px;
+}
+
+.dev-logo {
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    padding: 14px 25px;
+}
+
+.slide-propery-details-custom {
+    bottom: 0;
+    padding: 0;
+    a {
+        background-color: $base-red;
+        display: inherit;
+        text-align: center;
+        padding: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-weight: bold;
+        color: #f5f5f5;
+    }
+    h2 {
+        font-weight: bold;
+        color: #feffff;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+.sodic-projects {
+    // display: none;
+}
+
+.sodic-profile {
+    display: none;
+}
+
+.dev-information {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    h2 {
+        color: $base-blue;
+    }
+}
+
+.dev-text {
+    color: $white;
+    line-height: 2;
+}
+
+.dev-information-custom {
+    padding-top: 65px;
+}
+
+.call-center {
+    h4 {
+        color: $base-red;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding-bottom: 25px;
+    }
+    span {
+        color: $base-blue;
+        font-weight: 600;
+    }
+    p:first-of-type {
+        color: $white;
+        text-transform: uppercase;
+    }
+    p:nth-of-type(3) {
+        text-transform: uppercase;
+    }
+    p {
+        color: $white;
+    }
+}
+
+.email-address {
+    margin-top: 100px;
+    h4 {
+        color: $base-red;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 25px;
+    }
+    p {
+        color: $white;
+        span {
+            text-transform: uppercase;
+        }
+    }
+}
+
+.sodic-properties-header {
+    display: flex;
+    align-items: center;
+}
+
+.sodic-project-header {
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.sodic-profile-header {
+    display: flex;
+    align-items: center;
+    display: none;
+    div:first-of-type {
+        display: flex;
+        align-items: center;
+    }
+    div:last-child {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        background-color: #121420;
+        padding: 15px;
+        margin-left: 20px;
+        a {
+            font-size: 14px;
+            color: $base-blue;
+            display: flex;
+            align-items: center;
+            i {
+                padding-right: 20px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.colection-row {
+    height: 130px;
+}
+
+.my-propertioes-custom {
+    display: inline-block !important;
+}
+
+.custom-form-group {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.custom-right-form-group {
+    padding-right: 0;
+}
+
+.developers-form {
+    padding: 20px 23px;
+    .add-property-header {
+        h1 {
+            font-size: 35px;
+            font-weight: bold;
+            color: $white;
+        }
+    }
+    .progress-container {
+        width: 240px;
+        .progress-bar-text span:first-of-type {
+            margin-left: -20px;
+        }
+    }
+}
+
+.developers-form-countainer {
+    background-color: $white;
+    padding: 30px;
+    display: grid;
+    .form-control {
+        background-color: #e6e6e7;
+        border-radius: 0;
+        height: 45px;
+        margin-bottom: 35px;
+        font-style: italic;
+    }
+}
+
+.dev-col {
+    padding-left: 0;
+    padding-top: 20px;
+    border-right: 1px solid #e6e6e7;
+}
+
+.dev-text-area {
+    height: 200px !important;
+    margin-top: 25px;
+}
+
+.dev-col-left {
+    padding-right: 0;
+}
+
+.next-btn-custom {
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.next-btn-holder {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.show-me {
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color: #121420 !important;
+    text-decoration: underline;
+}
+
+.project-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    label {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.row-wrapper-custom {
+    margin-left: -27px;
+}
+
+.upload-img-holder-custom {
+    border: none;
+}
+
+.project-custom-label {
+    margin-bottom: 20px;
+}
+
+.add-dev {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    i {
+        background-color: $base-blue;
+        padding: 16px;
+        font-weight: bold;
+        margin-right: 20px;
+    }
+    p {
+        font-weight: bold;
+    }
+}
+
+.dev-form-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    input {
+        border-radius: 0;
+    }
+    input:first-of-type {
+        background-color: #0a0b12;
+        color: $base-blue;
+        font-weight: bold;
+        padding: 12px 20px;
+        margin-right: 10px;
+    }
+        background-color: $base-blue;
+        color: #0a0b12;
+        font-weight: bold;
+        padding: 12px 20px;
+    }
+}

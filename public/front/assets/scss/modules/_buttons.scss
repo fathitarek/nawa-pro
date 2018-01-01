@@ -1,0 +1,89 @@
+@import 'modules/-colors.scss';
+%btn {
+    padding: 14px 0;
+    curser: pointer;
+    border: none;
+    text-align: center;
+    display: block;
+}
+
+@mixin btn-large($width,$bg-color,$color,$border){
+    @extend %btn;
+    width: $width;
+    background-color:$bg-color;
+    color:$color;
+    border: $border;
+}
+.btn-social{
+    @include btn-large(2.1857rem,#080a0f,$white,none);
+    
+}
+.btn-login{
+    @include btn-large(6rem,$base-blue,$black,none);
+    max-height: 2.9rem;
+    padding: 11px 13px;
+    &:hover{
+        color:$base-blue;
+        background-color: #0a0b12;
+        text-decoration: none;
+    }
+}
+.active-login{
+    background-color: $base-red !important;
+}
+.btn-register{
+    @include btn-large(6.5625rem,transparent,$base-blue,1px solid $base-blue);
+    max-height:2.9rem;
+    display: inline-block;    
+    &:hover{
+        color:$black;
+        background-color:$base-blue;;
+        text-decoration: none;
+    }
+    
+    
+}
+.btn-dev-zone{
+    @include btn-large(width,#0a0b12,$base-blue,none);
+    max-height:45px;
+    font-style: italic;
+    padding: 13px 10px; 
+    font-weight: 600;
+    margin-right: 20px;
+    &:hover{
+        color: $black;
+        background-color: $base-blue;
+        text-decoration: none;
+    }
+    
+}
+.btn-add-prop{
+    @include btn-large(width,rgba(44, 196, 205, 0.2),$white,none);
+    max-height:45px;
+    font-style: italic;
+    font-weight:600 ;
+    padding: 10px 25px;
+    &:hover{
+        color: $black;
+        background-color: $base-blue;
+        text-decoration: none;
+    }
+    
+    
+}
+
+.tap-load-more{
+    background-color:$base-blue;
+    display: block;
+    width: 140px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 9px;
+    color: $black;
+    font-weight: bold;
+    display: none;
+    i{
+        padding-right: 10px;
+    }
+
+}

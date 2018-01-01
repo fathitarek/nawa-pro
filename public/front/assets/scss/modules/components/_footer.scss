@@ -1,0 +1,51 @@
+@import 'modules/-colors.scss';
+footer{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    .first-footer{
+     display:flex;
+     background-color:  #080a0f;
+     padding: 20px 35px;
+     font-size: 14px;
+     align-items: center;
+     a{
+         color: $base-blue;
+         &:hover{
+             color: $base-red;
+             text-decoration: none;
+         }
+     }
+     span{
+         height: 13px;
+         width: 1px;
+         background-color: $white;
+         margin: 0 20px;
+     }
+     
+    }
+    .sec-footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: #121420;
+        color:$white;
+        font-size: 14px;
+        div:first-of-type{
+            padding: 20px 35px;
+        }
+        .social-btns{
+            display: flex;
+            padding: 12px 35px;
+            :hover{
+                background-color: $base-red;
+                text-decoration: none;
+                color: $white;
+            }
+            .btn-social{
+              margin-left: 3px;
+              height: 35px;
+              padding-top: 10px;
+            }
+        }
+    }
+}

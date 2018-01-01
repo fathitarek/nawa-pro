@@ -1,0 +1,212 @@
+.news-header {
+    padding-left: 25px;
+    padding-bottom: 30px;
+    h1 {
+        color: $white;
+        font-weight: 600px;
+    }
+    p {
+        color: $base-blue;
+    }
+}
+
+.news-slider {
+    img {
+        width: 100%;
+    }
+}
+
+.hp-carousel-controls-custom {
+    right: 50%;
+    transform: translate(50%);
+}
+
+.sub-news {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    height: 255px;
+    overflow: hidden;
+    div {
+        width: 50%;
+        height: 100%;
+    }
+    div:last-child {
+        background-color: $white;
+        padding: 20px;
+        h2 {
+            padding-bottom: 30px;
+            font-weight: bold;
+        }
+    }
+    a {
+        color: $base-red;
+        text-decoration: underline;
+        margin-top: 20px;
+        display: inline-block;
+    }
+}
+
+// News Details
+.news-cover {
+    padding: 10px;
+    img{
+        width: 100%;
+    }
+}
+
+.details-header {
+    margin: 1.5rem 0;
+    h3 {
+        font-size: 1.21875rem;
+        color: $white;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 1.25rem 0;
+    }
+    p {
+        font-size: 0.6125rem;
+        color: $base-blue;
+    }
+}
+
+.details-inner {
+    background-color: $white;
+    p {
+        font-size: 1rem;
+        padding: 1.875rem;
+    }
+    h4 {
+        font-size: 1rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 0 1.875rem;
+    }
+}
+
+.related-news {
+    .row>div {
+        display: flex;
+        justify-content: space-between;
+    }
+    >h4 {
+        font-size: 1rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 1.875rem 0;
+        color: #fff;
+    }
+}
+
+.related-item {
+    margin-bottom: 3.4rem;
+    width: 25%;
+    .related-img {
+        position: relative;
+        width: 100%;
+        margin-bottom: 1.25rem;
+        img {
+            width: 100%;
+            max-height: 100%;
+            overflow: hidden;
+        }
+        a {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: .5rem 1.375rem;
+            background-color: rgba(0, 0, 0, .86);
+            color: #fff;
+        }
+    }
+    .related-details {
+        h4 {
+            font-size: 1.5rem;
+            max-width: 100%;
+            color: #fff;
+            font-weight: 600;
+        }
+        p {
+            &:first-of-type {
+                padding: 1.375rem 0;
+                color: $base-blue;
+            }
+            &:last-of-type {
+                color: $white;
+            }
+        }
+    }
+    h2 {
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+}
+
+////////////////////////////////book hote deals 
+.book-hot-deals {
+    background-color: $white;
+    text-align: center;
+    padding: 50px;
+    h2 {
+        font-size: 25px;
+        font-weight: 800;
+        color: #0a0b12;
+        padding-bottom: 35px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: bold;
+        color: #0a0b12;
+        padding-bottom: 40px;
+        span {
+            background-color: #cacacc;
+            display: inline-block;
+            padding: 15px;
+            margin-left: 20px;
+        }
+    }
+    .form-control {
+        background-color: #e6e6e7;
+        border-radius: 0;
+        height: 40px;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .property-price {
+        margin-top: -13px;
+    }
+}
+
+.book-hot-submit {
+    background-color: $base-blue;
+    color: $black;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0a0b12;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
+
+.book-hot-deals-custom{
+    background-color: $white;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    .header{
+        font-weight: 600;
+        color: #0a0b12;
+        padding-bottom: 10px;
+    }
+}
+
+.hot-deals-btn{
+    background-color: $base-blue;
+    color: $black;
+    font-weight: bold;
+    padding: 15px;
+    display: inline-block;
+    display: table;
+    margin: 0 auto;
+}

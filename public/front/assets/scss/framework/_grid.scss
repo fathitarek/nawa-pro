@@ -1,0 +1,57 @@
+@function calculate-width($cols) {
+    @return 100%/ $cols
+}
+
+.container-fluid {
+    width: calc(100% - 88px);
+    height: 100%;
+    float: right;
+    margin-bottom: 0;
+}
+
+.row {
+    padding: 1rem 0.7rem 0 0.7rem;
+    padding-bottom: 0;
+}
+.gallery {
+    margin-top: 35px;
+}
+%side-bar {
+    width: 88px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+html,
+body {
+    font-size: 16px;
+    background-color: #03030a;
+    line-height: normal;
+    margin-bottom: 3.3rem;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    &::-webkit-scrollbar {
+        background-color: #fff;
+        width: 7px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: #2cc4cd;
+    }
+
+    
+    
+    
+}
+
+.main {
+    display: flex;
+}

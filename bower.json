@@ -1,0 +1,18 @@
+{
+    "name": "sell-by-rent-home-page",
+    "authors": [
+    "Starwallet Labs"
+  ],
+    "description": "",
+    "main": "index.html",
+    "license": "MIT",
+    "homepage": "index.html",
+    "ignore": [
+    "**/.*",
+    "bower_components",
+  ],
+    "dependencies": {
+        "jquery": "^3.2.1",
+        "bootstrap": "^3.3.7",
+    }
+}

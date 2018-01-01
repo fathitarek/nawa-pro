@@ -1,0 +1,40 @@
+/* VENDOR - Default fall-backs and external files.
+========================================================================== */
+
+@import 'vendor/_normalize.min.css';
+
+/* BASE - Base Variable file along with starting point Mixins and Placeholders.
+========================================================================== */
+
+@import 'base/_variables.scss';
+@import 'base/_mixins.scss';
+@import 'base/_placeholders.scss';
+
+/* FRAMEWORK - Structure and layout files.
+========================================================================== */
+
+@import 'framework/_grid.scss';
+@import 'framework/_breakpoints.scss';
+@import 'framework/_layout.scss';
+
+/* MODULES - Re-usable site elements.
+========================================================================== */
+
+@import 'modules/_buttons.scss';
+@import 'modules/_lists.scss';
+@import 'modules/_tabs.scss';
+@import 'modules/-colors.scss';
+@import 'modules/components/_header.scss';
+@import 'modules/components/_footer.scss';
+@import 'modules/components/_sidebar.scss';
+@import 'modules/components/_homepage.scss';
+@import 'modules/components/_login-page.scss';
+@import 'modules/components/_add-property.scss';
+@import 'modules/components/_property-single-page.scss';
+@import 'modules/components/_message.scss';
+@import 'modules/components/_brokers.scss';
+@import 'modules/components/_interior-designer.scss';
+@import 'modules/components/_profile.scss';
+@import 'modules/components/_developers.scss';
+@import 'modules/components/_news.scss';
+@import '_responsive.scss';

@@ -1,0 +1,211 @@
+@import 'modules/-colors.scss';
+.pagination-login {
+    border-bottom: 0.2px solid $base-blue;
+    //width: 100%;
+    margin-top: 10px;
+    a {
+        color: $white;
+        font-style: italic;
+    }
+    i {
+        color: $base-blue;
+        margin: 10px;
+        transform: rotate(180deg);
+        display: inline-block;
+    }
+}
+
+.login-acount {
+    margin:50px 1.8% 30px 1.8%;
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $white;
+        text-align: center;
+    }
+    .form-header{
+        margin-top: 20px;
+        color: $base-blue;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+}
+
+.login-form {
+    background-color: $white;
+    width: 100%;
+    height: 100%;
+    padding: 45px 0px 15px 30px;
+    display: inline-block;
+    h6 {
+        text-transform: uppercase;
+        margin-bottom: 35px;
+        font-size: 1rem;
+        color: #0a0b12;
+        font-weight: bold;
+    }
+    h2{
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+    .login-data-input {
+        background-color: #e6e6e7;
+        border-radius: 0;
+        height: 45px;
+        margin-bottom: 35px;
+        font-style: italic;
+    }
+}
+.remember-me {
+    label {
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+        font-weight: 400;
+        a{
+            text-decoration: underline;
+            color: $black;
+        }
+    }
+}
+
+.form {
+    border-right: 1px solid #e6e6e7;
+    padding-right: 5%;
+    .btn-login {
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+}
+
+.social-form {
+    width: 95%;
+    .login-fb {
+        width: 100%;
+        background-color: #3335a1;
+        padding: 15px;
+        color: $white;
+        margin-bottom: 35px;
+        display: inline-block;
+        max-height: 45px;
+        display: flex;
+      
+         span{
+             margin: 0 auto;
+         }   
+    }
+    .google-fb {
+        width: 100%;
+        background-color: #ca2323;
+        display: inline-block;
+        padding: 15px;
+        color: $white;
+        margin-bottom: 35px;
+        max-height: 45px;
+        display: flex;
+        span{
+            margin:  0 auto;
+        }
+       
+    }
+}
+
+.forget-text {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    a {
+        color: $base-blue;
+    }
+    .sign-up{
+        text-decoration: underline;
+    }
+}
+
+.btn-recover-pw {
+    background-color: $base-blue;
+    color: $black;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px;
+}
+
+.recover-mail-text {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    color: #0a0b12;
+    margin-bottom: 35px;
+}
+
+.thank-u-text {
+    color: #0a0b12 !important;
+    font-style: italic;
+    display: inline-block;
+    padding-bottom: 30px;
+
+    span {
+        color: $base-blue;
+    }
+}
+.forget-form{
+    padding-right: 0;
+    border: none;
+}
+
+.login-to-your-acount {
+    h5 {
+        color: #0a0b12;
+        font-weight: bold;
+        font-size: 17px;
+    }
+}
+.form-row{
+    padding: 0;
+}
+.select{
+    background-image: url("../../imgs/bottom-arrow_2017-12-06/bottom-arrow.png");
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+.last-select{
+    background-position: 95%;
+}
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 30px 2px 2px;
+}
+.select-login-form{
+    padding-top: 53px;
+}
+.active-lang{
+    color: $base-blue !important;
+}
+.forget-text{
+    text-align: left;
+    padding-bottom: 35px;
+}
+
+.login-text{
+    padding-bottom: 30px;
+    span{
+        color:$base-blue;
+       
+    }
+}
+.active-login{
+    background-color: $base-red;
+    color: $white;
+    &:hover{
+        color: $white;
+        
+    }
+}

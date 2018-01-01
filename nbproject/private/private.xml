@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/sellbyrent/app/Repo/HomeRepo.php</file>
+            <file>file:/var/www/html/sellbyrent/routes/web.php</file>
+            <file>file:/var/www/html/sellbyrent/app/Http/Controllers/Front/DeveloperController.php</file>
+            <file>file:/var/www/html/sellbyrent/resources/views/front/home/result_search.blade.php</file>
+            <file>file:/var/www/html/sellbyrent/app/Repo/PropertyRepo.php</file>
+            <file>file:/var/www/html/sellbyrent/resources/views/front/developers/step2.blade.php</file>
+            <file>file:/var/www/html/sellbyrent/app/Http/Controllers/HomeController.php</file>
+            <file>file:/var/www/html/sellbyrent/app/Repo/DeveloperRepo.php</file>
+            <file>file:/var/www/html/sellbyrent/resources/views/front/partials/sidebar.blade.php</file>
+            <file>file:/var/www/html/sellbyrent/resources/views/front/developers/step1.blade.php</file>
+            <file>file:/var/www/html/sellbyrent/resources/views/front/home/main.blade.php</file>
+            <file>file:/var/www/html/sellbyrent/public/front/scripts/style.js</file>
+        </group>
+    </open-files>
+</project-private>
